@@ -60,44 +60,66 @@ social_metadata = {
 }
 
 # Main page - Experiences
-experiences = [
+projects = [
     {
-        "name": "Mendo SAS",
-        "position": "Fullstack Typescript Dev",
+        "name": "Blogger Platform",
+        "description": "Complete blogging platform with backend CMS written in Django and frontend in Bootstrap5",
         "link": None,
         "time": "Since September 2021",
+        "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
     {
-        "name": "Top.gg",
-        "position": "Community Moderator",
-        "link": "https://top.gg?utm_source=eri.gg",
-        "time": "Since June 2019",
-    },
-    {
-        "name": "Discord Templates",
-        "position": "Founder & Developer",
-        "link": "https://discordtemplates.com?utm_source=eri.gg",
-        "time": "June 2020 > June 2021",
-    },
-    {
-        "name": "SARL Ayhan Restaurant",
-        "position": "Website Developer",
+        "name": "Job Portal for Truckers",
+        "description": "Job portal for employee and employers with user login, job status, job expiry, employee/employer profiles. Written in Django.",
         "link": None,
-        "time": "July 2020 > August 2020",
+        "time": "Since September 2021",
+        "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
+    },
+    {
+        "name": "Inventory System",
+        "description": "Business inventory management, Vendor purchase/sale, Stock charts, Charts for Business analytics. Written in Django, Pandas, Matplotlib",
+        "link": None,
+        "time": "Since September 2021",
+        "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
+    },
+    {
+        "name": "Paper Trading System",
+        "description": "Trade with pseudo money on real stocks. Complete user management with realtime stock data.",
+        "link": None,
+        "time": "Since September 2021",
+        "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
+    },
+    {
+        "name": "Developer Portfolio",
+        "description": "Portfolio webapp written in Flask and frontend in Tailwind CSS",
+        "link": None,
+        "time": "Since September 2021",
+        "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
 ]
 
 # Main page - Education
 education = [
+        {
+        "name": "Accenture",
+        "description": "Software Engineer - Analyst",
+        "time": "Since August 2019",
+        "sno": "1",
+        "position": ""
+    },
     {
         "name": "DIT UNIVERSITY",
-        "description": "Bachelor's of Technology - Information Technology",
+        "description": "Bachelor's of Technology - IT",
         "time": "July 2015 - June 2019",
+        "sno": "2",
+        "position": "flex-row-reverse"
     },
     {
         "name": "DAV PUBLIC SCHOOL",
         "description": "Formal Schooling of 15 years ",
         "time": "Till 2015",
+        "sno": "3",
+        "position": ""
     },
 ]
 

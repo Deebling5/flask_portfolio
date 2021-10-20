@@ -45,7 +45,7 @@ def index():
             #"discord": get_discord_status(),
             "me": constants.me,
             "social": constants.social_metadata,
-            "experiences": constants.experiences,
+            "projects": constants.projects,
             "education": constants.education,
             "technologies": constants.technologies,
         },
