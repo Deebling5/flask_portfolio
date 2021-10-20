@@ -91,3 +91,6 @@ def checkers():
         return constants.social_metadata[name][value]
 
     return dict(main_metadata=main_metadata, social_metadata=social_metadata)
+
+if __name__ == '__main__':
+    app.run()
