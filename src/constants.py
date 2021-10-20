@@ -16,11 +16,6 @@ me = {
     "bio": "2+ years of experience working for a MNC with American Pharma giant in full stack application development, Analytics, Automations, Web Design and an ability to provide an independent view of achievable automations and work-around on limitations to allow client and team work more efficiently. Expertise in using Python libraries for Data Mining, building dashboards, creating API's. Proficient in building Desktop applications and involving multiple python libraries to serve the purpose.",
 }
 
-# Custom redirects
-# redirections = {
-#     "blog": "https://erionline.medium.com/?utm_source=eri.gg",
-#     "story": "https://erionline.medium.com/biraz-konusalim-nisan-2021-b8bbc5d9bb08/?utm_source=eri.gg",
-# }
 
 # Metadata
 main_metadata = {
@@ -64,35 +59,35 @@ projects = [
     {
         "name": "Blogger Platform",
         "description": "Complete blogging platform with backend CMS written in Django and frontend in Bootstrap5",
-        "link": None,
+        "link": 'https://github.com/Deebling5/medicalgeeks',
         "time": "Since September 2021",
         "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
     {
         "name": "Job Portal for Truckers",
         "description": "Job portal for employee and employers with user login, job status, job expiry, employee/employer profiles. Written in Django.",
-        "link": None,
+        "link": 'https://github.com/Deebling5/truckers_new',
         "time": "Since September 2021",
         "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
     {
         "name": "Inventory System",
         "description": "Business inventory management, Vendor purchase/sale, Stock charts, Charts for Business analytics. Written in Django, Pandas, Matplotlib",
-        "link": None,
+        "link": 'https://github.com/Deebling5/Stark-inventory-system',
         "time": "Since September 2021",
         "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
     {
         "name": "Paper Trading System",
         "description": "Trade with pseudo money on real stocks. Complete user management with realtime stock data.",
-        "link": None,
+        "link": 'https://github.com/Deebling5/Paper-Trading-Nifty',
         "time": "Since September 2021",
         "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },
     {
         "name": "Developer Portfolio",
         "description": "Portfolio webapp written in Flask and frontend in Tailwind CSS",
-        "link": None,
+        "link": 'https://github.com/Deebling5/flask_portfolio',
         "time": "Since September 2021",
         "snip": "https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80"
     },

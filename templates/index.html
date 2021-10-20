@@ -9,33 +9,33 @@
 
     <div id="left-profile" class="lg:w-1/4 md:w-2/3 md:mx-auto">
 
-        <img class="rounded-xl" src="{{url_for('static', filename='./assets/dp1.jpeg')}}">
+        <img class="rounded-md " width="250" height="300" src="{{url_for('static', filename='./assets/dp1.jpeg')}}">
 
 
-        <div class="mt-4 font-semibold text-3xl">
+        <div class="mt-4 font-semibold text-3xl p-1">
             {{ me.name }}
             <span id="statusIcon" class="w-2.5 h-2.5 rounded-full inline-flex animate-pulse bg-gray-400">
             </span>
         </div>
 
-        <p class="ml-0.5 text-md mt-1">{{ me.short_bio }}</p>
+        <p class="ml-0.5 text-md mt-1 pt-1">{{ me.short_bio }}</p>
 
-        <div id="listeningStatus" class="ml-0.5 my-1.50 text-sm break-word hidden">
+        <div id="listeningStatus" class="ml-0.5 my-1.50 text-sm break-word hidden ">
             <span class="w-2 h-2 bg-red-500 rounded-full inline-flex animate-pulse">
             </span>
             <span id="listeningContent" class="ml-1"> Listening to <b>Spotify</b> </span>
         </div>
 
-        <div class="ml-0.5 my-1 mr-1 justify-center">
+        <div class="ml-0.5 my-1 mr-1 justify-center p-1">
             {% include "icons/location.svg" %} {{ me.location }}
         </div>
 
-        <a id="email" href="mailto:9abhijay@gmail.com" class="text-gray-800 dark:text-gray-300 ml-0.5 my-1 mr-1 no-underline">
+        <a id="email" href="mailto:9abhijay@gmail.com" class="text-gray-800 dark:text-gray-300 ml-0.5 my-1 mr-1 no-underline p-1">
             {% include "icons/mail.svg" %}
             {{ me.email }}
         </a>
 
-        <div class="ml-0.5 my-1 mr-1">
+        <div class="ml-0.5 my-1 mr-1 p-1">
             {% include "icons/education.svg" %} {{ me.College }}
         </div>
 
@@ -53,7 +53,6 @@
             <p tabindex="0" class="text-lg md:w-auto mx-auto">{{ me.bio }}</p>
 
         </div>
-
         <div role="contentinfo" class="py-4">
             <h1 tabindex="0" class=" xl:text-3xl pt-4 xl:pt-0 py-5 text-start mb-4 mt-4 font-semibold text-3xl divide-x">Technology Stack
             </h1>
@@ -90,37 +89,20 @@
                     </div>
                     <div class="p-6 shadow-lg w-11/12 mx-auto -mt-10 bg-white rounded z-20 relative shadow-xl ease hover:shadow-2xl">
                         <h1 tabindex="0" class="focus:outline-none uppercase text-lg text-indigo-700 text-center pb-3">{{ p.name }}</h1>
-                        <p tabindex="0" class="focus:outline-none text-md text-gray-800 text-center pb-3">{{ p.description }}</p>
-                        <p tabindex="0" class="focus:outline-none text-sm text-gray-800 text-center">
-                            {{ p.time }}
-                        </p>
+                        <p tabindex="0" class="focus:outline-none text-md text-gray-800  pb-3">{{ p.description }}</p>
+                        <a tabindex="0" class="focus:outline-none text-sm text-gray-800 " href="{{ p.link }}"> Repo Link 
+                        </a>
                     </div>
                 </div>
                 {% endfor %}
 
             </div>
         </div>
-
         <div role="contentinfo" class="py-8">
             <h1 tabindex="0" class=" xl:text-3xl pt-4 xl:pt-0 py-5 text-start mb-4 mt-4 font-semibold text-3xl divide-x">
                 Education/Work</h1>
 
-            <!-- <div class="flex flex-wrap -mx-1 overflow-hidden sm:-mx-1">
-                {% for e in education %}
-                <div class="my-1 px-1 w-full overflow-hidden sm:my-1 sm:px-1 xl:w-2/5 lg:w-1/2 cursor-default">
-                    <div class="px-3.5 py-1.5 border-l-4 border-gray-400 rounded-sm bg-gray-200 dark:bg-gray-700">
-                        <a {% if e.link %} href="{{ e.link }}" target="_blank" {% endif %} class="text-base text-gray-800 dark:text-gray-200 font-semibold {% if e.link %} hover:underline {% endif %} no-underline">
-                        {{ e.name }}
-                    </a>
-                        <div class="text-sm font-normal"> {{ e.description }} </div>
-                        <div class="mt-1 text-sm font-semibold inline-flex">
-                            {% include "icons/time.svg" %}
-                            <span class="ml-2"> {{ e.time }} </span>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div> -->
+
             {% for e in education %}
             <div class="container  mx-auto w-full h-full">
                 <div class="relative wrap overflow-hidden p-10 h-full">

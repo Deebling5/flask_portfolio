@@ -42,7 +42,7 @@ def index():
     return render_template(
         "index.html",
         **{
-            #"discord": get_discord_status(),
+            "discord": get_discord_status(),
             "me": constants.me,
             "social": constants.social_metadata,
             "projects": constants.projects,
@@ -67,20 +67,7 @@ def blog_redirect():
         "redirect.html", **{"social": constants.social_metadata['medium']}
     )
 
-@app.route("/story/")
-def latest_story():
-    if constants.redirections['story']:
-        return render_template(
-            "redirect.html", **{
-                "social": {
-                    "author": "Eray C. - Medium",
-                    "title": "Biraz konuşalım... #1 - Nisan 2021",
-                    "desc": "Günlük tutmak yerine aylık tutsak nasıl olur? Hayatımdan anlar, yazılara döküp, anlatmak istediğim konuların toplandığı bir alan oluşturmak…",
-                    "color": "#c4c4c4",
-                    "url": constants.redirections['story']
-                }
-            }
-        )
+
 
 def get_discord_status():
     r = requests.get(f"https://api.lanyard.rest/v1/users/{constants.discord_id}")
