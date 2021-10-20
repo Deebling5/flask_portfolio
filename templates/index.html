@@ -85,7 +85,7 @@
                 {% for p in projects %}
                 <div class="focus:outline-none  pb-8 lg:max-w-2xl mx-auto sm:mx-0">
                     <div class="shadow-xl rounded ">
-                        <img role="img" aria-label="cars" src="{{ p.snip }}" alt="cars" class="focus:outline-none h-max w-max object-cover overflow-hidden rounded" />
+                        <img role="img" aria-label="cars" src="{{ p.snip }}" alt="desktop" class="focus:outline-none object-cover overflow-hidden rounded" />
                     </div>
                     <div class="p-6 shadow-lg w-11/12 mx-auto -mt-10 bg-white rounded z-20 relative shadow-xl ease hover:shadow-2xl">
                         <h1 tabindex="0" class="focus:outline-none uppercase text-lg text-indigo-700 text-center pb-3">{{ p.name }}</h1>
@@ -104,10 +104,10 @@
 
 
             {% for e in education %}
-            <div class="container  mx-auto w-full h-full">
+            <div class="container  mx-auto">
                 <div class="relative wrap overflow-hidden p-10 h-full">
                     <div class="border-2-2 absolute border-opacity-20 border-gray-700 dark:bg-gray-300 h-full border" style="left: 50%"></div>
-                    <!-- right timeline -->
+
                     <div class="mb-8 flex justify-between items-center w-full {{ e.position }}">
                         <div class="order-1 w-5/12"></div>
                         <div class="z-20 flex items-center order-1 bg-gray-800 dark:bg-gray-300 shadow-xl w-8 h-8 rounded-full">

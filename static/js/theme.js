@@ -49,7 +49,7 @@ function changeTheme(theme) {
     }
 
     if (theme == "light") {
-        // Enables the dark mode
+        // Disable the dark mode
         document.getElementById("page").classList.remove("dark")
     }
 }
