@@ -28,7 +28,7 @@ function themeEvent() {
 
     // Define a default theme if not set
     if (storedTheme == null || storedTheme == undefined) {
-        storeTheme("light")
+        storeTheme("dark")
     }
 }
 
