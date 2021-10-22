@@ -12,8 +12,8 @@ me = {
     "location": "Gurgaon, India",
     "College": "DIT University",
     "Work Ex": "2 Years 3 Months",
-    "short_bio": "Python Developer.",
-    "bio": "Currently working as a full stack python developer in Accenture with 2+ years of experience. Hands on experience working with python frameworks - Django and Flask. Expertise in Data analytics, Data visualisations, automations and web designing. Adapt at understanding clients' requirements and delivering projects accordingly.",
+    "short_bio": "Python Developer",
+    "bio": "Currently working as a full stack python developer in Accenture with 2+ years of experience. Hands-on experience working with python frameworks - Django and Flask. Expertise in Data analytics, Data visualisations, automations and web designing. Adapt at understanding clients' requirements and delivering projects accordingly.",
 }
 
 
