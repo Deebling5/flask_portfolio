@@ -20,11 +20,11 @@ me = {
 # Metadata
 main_metadata = {
     "locale": "en_US",
-    "author": "eri.gg",
+    "author": "deebling5",
     "title": "Abhijay Maheshwari - Portfolio",
     "desc": "",
     "image": "https://media.discordapp.net/attachments/712969229506183198/831109920103465000/img_caching.png",
-    "favicon": "https://images-ext-2.discordapp.net/external/5Hi7Y5E0rvFTKpKPeGg6Uc1p1-itFQPf4AwEsjzcUqo/https/i.imgur.com/tGibRPY.png",
+    "favicon": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f9d0.svg",
 }
 
 social_metadata = {
