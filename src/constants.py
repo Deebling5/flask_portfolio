@@ -13,7 +13,7 @@ me = {
     "College": "DIT University",
     "Work Ex": "2 Years 3 Months",
     "short_bio": "Python Developer.",
-    "bio": "2+ years of experience working for a MNC with American Pharma giant in full stack application development, Analytics, Automations, Web Design and an ability to provide an independent view of achievable automations and work-around on limitations to allow client and team work more efficiently. Expertise in using Python libraries for Data Mining, building dashboards, creating API's. Proficient in building Desktop applications and involving multiple python libraries to serve the purpose.",
+    "bio": "2+ years of experience working in Accenture as full stack application develope. Expertise in Analytics, Automations, Web Design. Ability to provide an independent view of achievable automations and work-around on limitations to allow client and team work more efficiently.",
 }
 
 
