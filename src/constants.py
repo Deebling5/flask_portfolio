@@ -12,19 +12,19 @@ me = {
     "location": "Gurgaon, India",
     "College": "DIT University",
     "Work Ex": "2 Years 3 Months",
-    "short_bio": "Python Developer",
-    "bio": "Currently working as a full stack python developer in Accenture with 2+ years of experience. Hands-on experience working with python frameworks - Django and Flask. Expertise in Data analytics, Data visualisations, automations and web designing. Adapt at understanding clients' requirements and delivering projects accordingly.",
+    "short_bio": "Python Developer.",
+    "bio": "2+ years of experience working for a MNC with American Pharma giant in full stack application development, Analytics, Automations, Web Design and an ability to provide an independent view of achievable automations and work-around on limitations to allow client and team work more efficiently. Expertise in using Python libraries for Data Mining, building dashboards, creating API's. Proficient in building Desktop applications and involving multiple python libraries to serve the purpose.",
 }
 
 
 # Metadata
 main_metadata = {
     "locale": "en_US",
-    "author": "deebling5",
+    "author": "eri.gg",
     "title": "Abhijay Maheshwari - Portfolio",
     "desc": "",
     "image": "https://media.discordapp.net/attachments/712969229506183198/831109920103465000/img_caching.png",
-    "favicon": "https://github.com/twitter/twemoji/blob/master/assets/svg/1f9d0.svg",
+    "favicon": "https://images-ext-2.discordapp.net/external/5Hi7Y5E0rvFTKpKPeGg6Uc1p1-itFQPf4AwEsjzcUqo/https/i.imgur.com/tGibRPY.png",
 }
 
 social_metadata = {
